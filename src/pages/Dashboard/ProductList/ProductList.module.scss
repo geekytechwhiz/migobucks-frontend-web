@@ -1,0 +1,65 @@
+.list-head {
+    margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: 0 3px 6px 0 rgba(10, 75, 109, 0.2);
+  border: solid 1px #a5c9ff;
+  background-color: #ffffff;
+  img {
+    float: right;
+  }
+  .sub-menu {
+    margin: 25px 0;
+    border-bottom: solid 1px #a5c9ff;
+    ul {
+        list-style-type: none;
+        li {
+            display: inline;
+            margin: 0 42px 4px 0;
+            font-size: 14px;
+            font-weight: 600;
+            color: #174a84;
+        }
+    }
+}
+}
+.list-body {
+  padding: 10px;
+  box-shadow: 0 3px 16px 0 rgba(10, 75, 109, 0.08);
+  border: solid 1px #a5c9ff;
+  background-color: #ffffff;
+}
+.prod-label {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #174a84;
+}
+.div-table {
+  margin: 10px 0;
+  display: table;         
+  width: 100%;                
+  border-spacing: 5px; /* cellspacing:poor IE support for  this */
+}
+.div-table-row {
+  display: table-row;
+  clear: both;
+}
+.div-table-col {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;   
+  font-size: 16px;      
+  color: #174a84;  
+  font-weight: 600;
+}
+.prod-name {
+  font-family: 'Lato';
+  font-size: 14px;
+  color: #174a84;
+}
+.prod-cat {
+  padding: 3px 10px 2px;
+  border-radius: 6px;
+  background-color: #f5f0ff;
+  color: #764ced;
+  font-size: 12px;
+}

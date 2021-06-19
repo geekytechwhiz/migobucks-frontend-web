@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .head {
+        font-size: 20px;
+        color: #2e384d;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .sub-head {
+        font-size: 14px;
+        color: #2e384d;
+        text-align: center;
+    }
+    .form-container {
+        margin: 2rem auto;
+        max-width: 400px;
+    }
+    .nav-option {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem 0;
+    }
+}

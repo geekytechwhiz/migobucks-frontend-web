@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g>
+        <g>
+            <path fill="#ddd" d="M20 0A20 20 0 1 1 0 20 20 20 0 0 1 20 0z" transform="translate(-4.274 -4.274) translate(4.274 4.274)"/>
+            <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4px" d="M14.25 20.5l4.669 4.669 9.339-9.339" transform="translate(-4.274 -4.274) translate(4.274 4.274) translate(-1.253 -.502)"/>
+        </g>
+    </g>
+</svg>

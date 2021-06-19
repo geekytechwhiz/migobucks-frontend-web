@@ -1,0 +1,32 @@
+.notifications-container {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    padding: 30px 20px;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.16);
+    max-height: 90vh;
+    overflow-y: scroll;
+    right: 20px;
+    top: 100px;
+    z-index: 99;
+
+    .head {
+        border-bottom: 2px solid #000;
+    }
+
+    .notification-items-container {
+        margin-top: 15px;
+        font-size: 15px;
+
+        .notification-item {
+            padding: 10px;
+            margin: 12px 0px;
+            cursor: pointer;
+
+            > .text {
+                padding-left: 10px;
+            }
+        }
+    }
+}

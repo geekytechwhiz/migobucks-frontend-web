@@ -1,0 +1,40 @@
+.product-info-container {
+  display: inline-block;
+  margin: 14px 10px;
+  width: 30%;
+}
+.product-plan-container {
+    display: inline-block;
+    margin: 10px;
+    width: 25%;
+  }
+  .product-feature-container {
+    display: inline-block;
+    margin: 10px;
+    width: 50%; 
+  }
+.search-container {
+    display: inline-block;
+    margin: 10px;
+    width: 90%;
+}
+.input-label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 5px 5px;
+  }
+  .header-search {
+    width: 100%;
+    height: 32px;
+    padding: 4px 14px 4px 9px;
+    border-radius: 6px;
+    border: solid 1px #dde4eb;
+  }
+  .product-search {
+    width: 90%;
+    height: 40px;
+    padding: 4px 14px 4px 9px;
+    border-radius: 10px;
+    border: solid 1px #dde4eb;
+  }

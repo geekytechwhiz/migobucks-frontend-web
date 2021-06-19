@@ -1,0 +1,27 @@
+$primary-color: #466ba5;
+
+button {
+  border-radius: 7px;
+  border: 1px solid;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.primary {
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.primary-outlined {
+  background-color: transparent;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  transition: 0.4s;
+}
+
+.primary-outlined:hover {
+  background-color: $primary-color;
+  color: #fff;
+}

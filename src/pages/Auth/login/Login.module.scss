@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+    height: 100%;
+    width: 100%;
+    background: #ccc;
+    .card {
+        width: 300px;
+        background: #fff;
+        padding: 1rem;
+        border-radius: 0.3rem;
+
+        h3 {
+            margin: 0;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        button,
+        input {
+            display: block;
+            width: 100%;
+            margin: 0.5rem 0;
+            border: none;
+            background: #ccc;
+            padding: 0.5rem;
+            border-radius: 0.3rem;
+        }
+    }
+}

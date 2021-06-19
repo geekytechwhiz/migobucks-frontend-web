@@ -1,0 +1,27 @@
+.add-product-form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+.add-product-form > div {
+    display: block;
+}
+.add-product-form > div > label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.add-product-form select {
+    width: 100%;
+}
+
+.add-product-form select, .add-product-form input {
+    padding: 10px 20px;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+}

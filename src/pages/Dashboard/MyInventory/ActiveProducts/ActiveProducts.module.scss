@@ -1,0 +1,18 @@
+.content {
+    margin-top: 30px;
+    padding: 10px 20px;
+
+    .tools-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .togglebar-container {
+        position: relative;
+        width: max-content;
+    }
+    .add-item-btn {
+        padding: 10px 30px;
+        font-weight: bold;
+    }
+}

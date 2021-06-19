@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: url("../../../assets/reg-success.svg") no-repeat center #f9f9f9;
+  align-items: center;
+  .sub-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    align-items: center;
+  }
+  .icon-active {
+    color: #0cc034;
+  }
+  .succ-head {
+      color: #2e384d;
+    padding: 0.2rem;
+    font-size: 20px;
+  }
+  .succ-body {
+    color: #2e384d;
+    padding: 0.2rem;
+    b {
+      color: #1069af;
+    }
+  }
+}

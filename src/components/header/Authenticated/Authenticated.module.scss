@@ -1,0 +1,70 @@
+.container {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+
+    > * {
+        display: inline;
+    }
+
+    .search-input {
+        width: 374px;
+        height: 32px;
+        border-radius: 6px;
+        border: solid 1px #dde4eb;
+        padding: 4px 14px 4px 9px;
+    }
+
+    .navbar-items {
+        margin-right: 100px;
+
+        a {
+            text-decoration: none;
+            color: #000;
+            margin-left: 50px;
+            padding-bottom: 3px;
+            font-size: 15px;
+            font-family: 'Open Sans', 'Heebo', sans-serif;
+            font-weight: 400;
+
+
+            :visited, :active {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+
+        .active-nav-link {
+            border-bottom: 4px solid #ffc200;
+           
+        }
+    }
+
+    .account-container {
+        margin-right: 50px;
+
+        .notification-icon {
+            border: none;
+            margin-left: 30px;
+        }
+
+        .account-dropdown-arrow {
+            color: #bbbbbb;
+            margin-left: 5px;
+            margin-top: 8px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .notification-badge {
+            sup {
+                top: 8px;
+                right: 35px;
+                background-color: #ffc200;
+                font-size: 10px;
+                color: #000;
+                font-weight: bolder;
+            }
+        }
+    }
+}

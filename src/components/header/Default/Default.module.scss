@@ -1,0 +1,25 @@
+.container {
+    position: absolute;
+    right: 80px;
+
+    .navbar-items {
+        a {
+            font-family: 'Open Sans', 'Heebo', sans-serif;
+            text-decoration: none;
+            color: #000;
+            margin-left: 50px;
+            padding-bottom: 6px;
+            font-size: 15px;
+    
+    
+            :visited, :active {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+        
+        .nav-button-container {
+            margin-left: 50px;
+        }
+    }
+}
