@@ -2,7 +2,7 @@ import Login from './login/Login';
 import RegisterSuccess from './register-success/register-success';
 import Register from './register/Register';
 
-const AuthRouting = [
+const OnboardingRouting = [
 
   {
     path: '/auth/login',
@@ -21,4 +21,4 @@ const AuthRouting = [
   },
 ];
 
-export default AuthRouting;
+export default OnboardingRouting;

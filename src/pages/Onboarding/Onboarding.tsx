@@ -6,10 +6,10 @@ import {
 } from 'react-router-dom';
 import Header from '../../components/header';
 
-import style from './Auth.module.scss';
-import AuthRouting from './Auth.routing';
+import style from './Onboarding.module.scss';
+import OnboardingRouting from './Onboarding.routing';
 
-function Auth() {
+function Onboarding() {
   return (
     <div>
       <Header />
@@ -18,7 +18,7 @@ function Auth() {
           <Route exact path="/auth/">
             <Redirect to="/auth/register" />
           </Route>
-          {AuthRouting.map((entry:any) => <Route {...entry} />)}
+          {OnboardingRouting.map((entry:any) => <Route {...entry} />)}
         </Switch>
       </div>
 
@@ -26,4 +26,4 @@ function Auth() {
   );
 }
 
-export default Auth;
+export default Onboarding;

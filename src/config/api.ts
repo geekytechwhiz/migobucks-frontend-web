@@ -1,19 +1,26 @@
-export interface IApiSetting {
+
+import axios from "axios";
+interface IApiSetting {
     url: string;
 }
-
-export interface IApiConfig {
+ interface IApiConfig {
     development: IApiSetting;
     production: IApiSetting;
 }
 
-const apiConfig: IApiConfig = {
+const ApiConfig: IApiConfig = {
   development: {
     url: 'http://localhost:8000',
   },
   production: {
-    url: 'https://<URL>', // TODO: Add server URL
+    url: 'https://<URL>', 
   },
 };
 
-export default apiConfig;
+export const Http= axios.create({
+  baseURL:ApiConfig.development.url,
+  headers: {
+    "Content-type": "application/json"
+  }
+});
+export default Http;

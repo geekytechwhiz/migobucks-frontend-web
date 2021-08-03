@@ -1,8 +1,8 @@
 import React, { useState, useCallback, useMemo } from 'react';
 import { Skeleton, Table, TableColumnType } from 'antd';
 import { useHistory } from 'react-router-dom';
-import Button from '../../../../components/button';
-import ToggleBar, { IToggleBarData } from '../../../../components/toggleBar';
+import Button from '../../../components/button';
+import ToggleBar, { IToggleBarData } from '../../../components/toggleBar';
 
 import styles from './ActiveProducts.module.scss';
 
@@ -98,7 +98,7 @@ const ActiveProductsPage: React.FC = (props) => {
   }, []);
 
   const handleAddItemBtnClick = useCallback(() => {
-    history.push('/dashboard/add-new');
+    history.push('/dashboard/inventory/addproduct');
   }, [history]);
 
   const handleRowSelect = useCallback((selectedRowKey) => {

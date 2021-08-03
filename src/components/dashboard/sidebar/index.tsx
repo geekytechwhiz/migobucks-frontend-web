@@ -13,7 +13,7 @@ const MenuItems: IMenuLinks[] = [
     label: 'Account',
   },
   {
-    path: '/dashboard/my-inventory',
+    path: '/dashboard/inventory',
     label: 'My Inventory',
   },
   {

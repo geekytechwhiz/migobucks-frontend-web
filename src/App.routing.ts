@@ -1,6 +1,6 @@
-import { RouteProps } from 'react-router-dom';
-import Auth from "./pages/Auth/Auth";
+import { RouteProps } from 'react-router-dom'; 
 import DashboardLayout from "./pages/Dashboard/DashboardLayout";
+import Onboarding from './pages/Onboarding/Onboarding';
 
 export interface IAppRouting extends RouteProps {
     key: string;
@@ -11,15 +11,14 @@ const AppRouting: IAppRouting[] = [
     {
         key: "auth",
         path: "/auth",
-        component: Auth,
+        component: Onboarding,
 
     },
     {
         key: "dashboard",
         path: "/dashboard",
         protected: true,
-        component: DashboardLayout,
-
+        component: DashboardLayout, 
     }
 ];
 

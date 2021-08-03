@@ -1,21 +1,15 @@
-import { RouteProps } from 'react-router-dom';
-import AddProductPage from './AddProduct';
-import MyInventory from './MyInventory/MyInventory';
+import { RouteProps } from "react-router-dom";
+import AddProductPage from "../Inventory/AddProduct";
+import MyInventory from "../Inventory/MyInventory";
 
 export interface IDashboardRouting extends RouteProps {
-    key: string;
+  key: string;
 }
 
 const DashboardRouting: IDashboardRouting[] = [
-
   {
-    key: 'add',
-    path: '/dashboard/add-new',
-    component: AddProductPage,
-  },
-  {
-    key: 'myInventory',
-    path: '/dashboard/my-inventory',
+    key: "myInventory",
+    path: "/dashboard/inventory",
     component: MyInventory,
   },
 ];
