@@ -4,7 +4,7 @@ import styles from './Orders/Orders.module.scss';
 const Orders: React.FC = (props) => (
   <>
     <div>
-    
+    <span> Orders</span>
     </div>
   </>
 );
