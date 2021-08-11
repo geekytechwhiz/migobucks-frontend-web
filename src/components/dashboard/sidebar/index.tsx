@@ -13,7 +13,7 @@ const MenuItems: IMenuLinks[] = [
     label: 'Account',
   },
   {
-    path: '/dashboard/inventory',
+    path: '/dashboard/myinventory',
     label: 'My Inventory',
   },
   {
@@ -28,7 +28,7 @@ const MenuItems: IMenuLinks[] = [
 
 const serviceItems: IMenuLinks[] = [
   {
-    path: '/dashboard/migo-inventory',
+    path: '/dashboard/migoinventory',
     label: 'Migo Inventory',
   },
   {

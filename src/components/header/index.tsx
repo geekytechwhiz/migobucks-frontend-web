@@ -24,7 +24,7 @@ const Header: React.FC = (props) => {
       <div className={styles.logo}>
         <img src={logo} alt="migobucks-logo" />
       </div>
-      {
+      {/* {
                 isAuthenticated
                   ? (
                     <AuthenticatedHeader
@@ -32,8 +32,9 @@ const Header: React.FC = (props) => {
                       searchPlaceholder="Search"
                     />
                   )
-                  : <DefaultHeader />
-            }
+                  :
+                   <DefaultHeader />
+            } */}
       <div>
         {
                     notificationWindowOpen

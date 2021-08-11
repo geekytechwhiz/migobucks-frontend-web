@@ -1,6 +1,7 @@
 import { RouteProps } from "react-router-dom";
 import AddProductPage from "../Inventory/AddProduct";
 import MyInventory from "../Inventory/MyInventory";
+import MigoInventory from "../MigoInventory";
 import Orders from "../Orders";
 import Settlement from "../Settlement";
 
@@ -23,7 +24,12 @@ const DashboardRouting: IDashboardRouting[] = [
     key: "settlements",
     path: "/dashboard/settlements",
     component: Settlement,
-  }
+  },
+  {
+    key: "migoinventory",
+    path: "/dashboard/migoinventory",
+    component: MigoInventory,
+  },
 ];
 
 export default DashboardRouting;

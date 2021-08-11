@@ -1,4 +1,4 @@
-import { RouteProps } from 'react-router-dom'; 
+import { RouteProps } from 'react-router-dom';
 import DashboardLayout from "./pages/Dashboard/DashboardLayout";
 import Onboarding from './pages/Onboarding/Onboarding';
 
@@ -18,8 +18,10 @@ const AppRouting: IAppRouting[] = [
         key: "dashboard",
         path: "/dashboard",
         protected: true,
-        component: DashboardLayout, 
-    }
+        component: DashboardLayout,
+    },
+
+  
 ];
 
 

@@ -7,14 +7,14 @@ import ToggleBar, { IToggleBarData } from '../../../components/toggleBar';
 import styles from './ActiveProducts.module.scss';
 
 interface ITableData {
-    ProductName: string;
-    AvailIn: string;
-    mrp: string;
-    SellingPrice: string;
-    LoyaltyPoint: string;
-    BuddyMargin: string;
-    inStock: string;
-    key: number,
+  ProductName: string;
+  AvailIn: string;
+  mrp: string;
+  SellingPrice: string;
+  LoyaltyPoint: string;
+  BuddyMargin: string;
+  inStock: string;
+  key: number,
 }
 
 const fakeColumns: TableColumnType<any>[] = [
