@@ -1,6 +1,6 @@
 import { RouteProps } from "react-router-dom";
 import AddProductPage from "../Inventory/AddProduct";
-import MyInventory from "../Inventory/MyInventory";
+import MyInventory from "../Inventory/MyInventory";  
 import Orders from "../Orders";
 import Settlement from "../Settlement";
 

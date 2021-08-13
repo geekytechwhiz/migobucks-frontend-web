@@ -1,7 +1,5 @@
 .card-container {
-    zoom: 1.0;
-    margin: 40px;
-    width: 225px;
+    zoom: 1.0;  
     border: solid 1px #cedbe5;
     border-radius: 5px;
     box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.14);
@@ -40,8 +38,7 @@
         height: 225px;
         width: 100%;
         padding: 10px 12px;
-        padding-top: 16px;
-        overflow-y: auto;
+        padding-top: 16px; 
         img {
             border-radius: 10px;
             width: 100%;

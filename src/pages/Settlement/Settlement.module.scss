@@ -1,14 +1,43 @@
-.header {
-    background-image: linear-gradient(to bottom, #0e6cb6, #1765a2);
-    border-radius: 8px;
-    display: flex;
-    padding-top: 10px;
-    padding-left: 20px;
-    align-items: center;
-
-    &, h1 {
-      font-size: 20px;
-      font-weight: bold;
-      color: #fff;
-    }
+.content {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 90vh;
+  .tools-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
   }
+  .togglebar-container {
+      position: relative;
+      width: max-content;
+  }
+  .add-item-btn {
+      padding: 10px 30px;
+      font-weight: bold;
+  }
+}
+
+
+.tab-group {
+  font-weight: bold;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+
+  a {
+      color: #000;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 16px;
+
+      :visited, :active {
+          text-decoration: none;
+          color: #000;
+      }
+  }
+
+  .active {
+      color: #1a72b6;
+      border-bottom: 5px solid #1a72b6;
+  }
+}

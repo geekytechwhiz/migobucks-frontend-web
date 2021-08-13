@@ -1,0 +1,32 @@
+.container {
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 3px;
+  text-align: center;
+
+  .item {
+    text-align: center;
+    align-items: center;
+    padding: 10px 40px;
+    cursor: pointer;
+    color: #1b75bb;
+  }
+
+  .active {
+    border-radius: 5px;
+    color: #1367aa;
+    border-color: #1367aa;
+    border-width: 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: solid;
+  }
+  .tab-active {
+    border-radius: 5px;
+    color: #1367aa;
+    border-color: #1367aa;
+    border-width: 1px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: solid;
+  }
+}

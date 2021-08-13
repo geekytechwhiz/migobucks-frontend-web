@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { useHistory } from 'react-router-dom';
 
@@ -7,9 +7,9 @@ import {
   Container,
 } from '@material-ui/core';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
-
 import { brandTypesArray } from './brand-type-const';
-import style from './brand-type.module.scss';
+import style from './brand-type.module.scss'; 
+import { GetDomains } from '../../../../api/brandServices';
 
 let brandTypes = brandTypesArray;
 const Brands = (props: any) => {
@@ -44,6 +44,21 @@ export default function BrandType() {
   const navigate = () => {
     history.push("/auth/register/brand-reg");
   };
+
+  const retrieveTutorials = () => {
+    GetDomains()
+      .then(response => { 
+        console.log(response.data);
+      })
+      .catch(e => {
+        console.log(e);
+      });
+  };
+
+  useEffect(() => {
+    debugger;
+    retrieveTutorials();
+  }, []);
 
   return (
     <Container>

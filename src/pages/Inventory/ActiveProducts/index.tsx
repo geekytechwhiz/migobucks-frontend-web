@@ -30,16 +30,25 @@ const fakeColumns: TableColumnType<any>[] = [
     title: 'Avail. in',
     dataIndex: 'AvailIn',
     key: 'AvailIn',
+    sorter(a, b) {
+      return 1;
+    },
   },
   {
     title: 'MRP',
     dataIndex: 'mrp',
     key: 'mrp',
+    sorter(a, b) {
+      return 1;
+    },
   },
   {
     title: 'Selling Price',
     dataIndex: 'SellingPrice',
     key: 'SellingPrice',
+    sorter(a, b) {
+      return 1;
+    },  
   },
   {
     title: 'Loyalty Point [%]',

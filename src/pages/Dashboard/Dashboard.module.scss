@@ -1,17 +1,32 @@
-.page-container {
-  margin-top: 10px;
+.page-container { 
+  display: flex;
+  flex-direction: row;  
 }
 
 .sidebar-container {
-  height: 98vh;
-  width: 270px;
+  height: 98vh; 
+  width: 15%;
+  margin-left: 1%;
+  align-items: flex-start;
+}
+
+.sidebar-card {
+  height: 98vh; 
+  width: 15%; 
   margin-left: 10px;
-  float: left;
+  margin-right: 1%;
+  margin-top: 50px;
+  align-items: flex-end;
 }
 .main-content-container {
-  height: 98vh;
-  float: left;
-  width: calc(100vw - 250px);
-  float: left;
-  overflow-y: scroll;
+  height: 98vh; 
+  width: 67%;  
+  // overflow-y: scroll;
+}
+ .divider{
+   height: 40px;
+   display: flex
+ }
+ .card-holder{  
+   margin-top: 10px;
 }

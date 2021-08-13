@@ -1,5 +1,5 @@
 import React from 'react';
-// import logo from '../../../assets/logo.png'
+import logo from '../../../assets/logo.png'
 import Textarea from '../../../components/textarea/Textarea';
 import style from './ProductMedia.module.scss';
 
@@ -11,7 +11,7 @@ function ProductMedia() {
       </label>
       <div className={style['image-list']}>
         <div className={style['image-info']}>
-          {/* <img src={logo} alt="imagev"/> */}
+          <img src={logo} alt="imagev"/>
         </div>
       </div>
       <div className={style['textarea-contain']}>

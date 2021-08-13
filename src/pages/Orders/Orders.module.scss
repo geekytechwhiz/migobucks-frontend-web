@@ -1,0 +1,47 @@
+.container { 
+    margin-left: 20px
+}
+
+.content {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 90vh;
+    .tools-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .togglebar-container {
+        position: relative;
+        width: max-content;
+    }
+    .add-item-btn {
+        padding: 10px 30px;
+        font-weight: bold;
+    }
+}
+ 
+
+.tab-group {
+    font-weight: bold;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+
+    a {
+        color: #000;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 16px;
+
+        :visited, :active {
+            text-decoration: none;
+            color: #000;
+        }
+    }
+
+    .active {
+        color: #1a72b6;
+        border-bottom: 5px solid #1a72b6;
+    }
+}
